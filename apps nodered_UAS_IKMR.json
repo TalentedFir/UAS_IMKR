@@ -1,0 +1,1632 @@
+[
+    {
+        "id": "fc377e2990d1f1a4",
+        "type": "tab",
+        "label": "TEMPERATURE & LEVEL",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "aa999a3b34c54e63",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.mqtt-dashboard.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5d648df72148d612",
+        "type": "ui_group",
+        "name": "Sistem Monitoring Level dan Suhu Boiler dilengkapi Alarm Otomatis",
+        "tab": "8ab6e076d9584870",
+        "order": 1,
+        "disp": false,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8ab6e076d9584870",
+        "type": "ui_tab",
+        "name": "Dashboard Overview",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8765c452b13d9c38",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0084bd",
+                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0084bd",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0084bd",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0ab5ff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0084bd",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Century Gothic,CenturyGothic,AppleGothic,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Process Monitoring System",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "06490bcd24a31a55",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "45b6813b073e0842",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "06490bcd24a31a55",
+        "order": 1,
+        "disp": false,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f843f25ad1bfcf46",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 1,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "791b47dca7fa5c63",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 3,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "88d336c6787c8b90",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "01d7a4fd030d5a7b",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7a1786e6f966bf41",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "34701ad00a086a7d",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "679dad87025f0c0b",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "68af53d2f1b8bd84",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3f66258d639d54fd",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "757ae12016cc25f3",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "72f7868a57a893e1",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d72849b7333051e4",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "60a08e0b55bb4dba",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 23,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f4d3d925c5a51a0a",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "90982a6e65a4f71f",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 27,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "18d3b73f653d32f4",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 29,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3d538714bb382e3f",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 30,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "942679cffa59129f",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 31,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "410cf90f561dc9ca",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 33,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81dc59a6c5bf35c1",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a70b539f2866e249",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 36,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "7e9bbd2501ef4345",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 37,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "09228887bb92c6e9",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 40,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bedc8c281f4b1d3e",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 41,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "fcecfdf0c694c73d",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 43,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "62e8aa1e3eb9117f",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 44,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "36c3a82fbe77ab45",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 45,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "403958fcab0180b2",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 47,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8e36d6cbd7a9798e",
+        "type": "ui_spacer",
+        "z": "fc377e2990d1f1a4",
+        "name": "spacer",
+        "group": "5d648df72148d612",
+        "order": 49,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "1ef4f7bf3c39a7c1",
+        "type": "mqtt in",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "topic": "data/level",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "aa999a3b34c54e63",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 80,
+        "y": 260,
+        "wires": [
+            [
+                "afcb202417fe1630",
+                "cb63bd575e8e9005"
+            ]
+        ]
+    },
+    {
+        "id": "afcb202417fe1630",
+        "type": "debug",
+        "z": "fc377e2990d1f1a4",
+        "name": "LEVEL",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ef4a348ab099de1c",
+        "type": "mqtt in",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "topic": "data/temperature",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "aa999a3b34c54e63",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 340,
+        "wires": [
+            [
+                "65488d532201593d",
+                "6df86aa0f01f9f64"
+            ]
+        ]
+    },
+    {
+        "id": "65488d532201593d",
+        "type": "debug",
+        "z": "fc377e2990d1f1a4",
+        "name": "TEMP",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 270,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "df6f51ee044ed602",
+        "type": "ui_gauge",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "group": "5d648df72148d612",
+        "order": 9,
+        "width": 8,
+        "height": 2,
+        "gtype": "gage",
+        "title": "",
+        "label": "C",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "80",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 530,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6df86aa0f01f9f64",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "PEMBULATAN",
+        "func": "msg.payload = Math.round(msg.payload); // Membulatkan ke bilangan bulat\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 400,
+        "wires": [
+            [
+                "df6f51ee044ed602",
+                "c0d253f1eacc35f6"
+            ]
+        ]
+    },
+    {
+        "id": "6d78320b0dddb821",
+        "type": "ui_chart",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "group": "5d648df72148d612",
+        "order": 28,
+        "width": 11,
+        "height": 6,
+        "label": "Plotting Real Time Data Level",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "1",
+        "removeOlderPoints": "60",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 610,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0f9b1ea5b0165cd",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 1",
+        "func": "msg.payload = [\n    { \"Nama\": \"Eli Sanjaya\", \"NIM\": \"2203431007\", \"Divisi\": \"Ketua\" },\n    { \"Nama\": \"Fadillah Yaseer\", \"NIM\": \"2203431045\", \"Divisi\": \"Wakil\" },\n    { \"Nama\": \"Muhammad Rabbani\", \"NIM\": \"2203431024\", \"Divisi\": \"Engineer\" },\n    { \"Nama\": \"Rifan Diastama\", \"NIM\": \"2203431028\", \"Divisi\": \"Teknisi\" }\n];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 500,
+        "wires": [
+            [
+                "a041268b81296f8a",
+                "cc7302d724847ef9"
+            ]
+        ]
+    },
+    {
+        "id": "837eb52922abef33",
+        "type": "inject",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{ \"Nama\": \"Eli Sanjaya\", \"NIM\": \"2203431007\", \"Divisi\": \"Ketua\" },     { \"Nama\": \"Fadillah Yaseer\", \"NIM\": \"2203431045\", \"Divisi\": \"Wakil\" },     { \"Nama\": \"Muhammad Rabbani\", \"NIM\": \"2203431024\", \"Divisi\": \"Engineer\" },     { \"Nama\": \"Rifan Diastama\", \"NIM\": \"2203431028\", \"Divisi\": \"Teknisi\" }]",
+        "payloadType": "json",
+        "x": 210,
+        "y": 480,
+        "wires": [
+            [
+                "b0f9b1ea5b0165cd"
+            ]
+        ]
+    },
+    {
+        "id": "64808ed008f34edf",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 2",
+        "func": "if (msg.payload <= 30) {\n    msg.alarm = \"Low Low\";\n} else if (msg.payload > 30 && msg.payload <= 60) {\n    msg.alarm = \"Low\";\n} else if (msg.payload > 60 && msg.payload <= 90) {\n    msg.alarm = \"High\";\n} else if (msg.payload > 90) {\n    msg.alarm = \"High High\";\n}\nmsg.payload = 'Alarm: ' + msg.alarm;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 100,
+        "wires": [
+            [
+                "bf105ba55d1f2e62",
+                "c2377818b0cb2423",
+                "cb68292af49ad1cd",
+                "4d605d6bd74f1347",
+                "0a43afe737c7dfce"
+            ]
+        ]
+    },
+    {
+        "id": "bf105ba55d1f2e62",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 48,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c0d253f1eacc35f6",
+        "type": "ui_chart",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "group": "5d648df72148d612",
+        "order": 5,
+        "width": 11,
+        "height": 6,
+        "label": "Plotting Real Time Data Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "70",
+        "removeOlder": "1",
+        "removeOlderPoints": "60",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb63bd575e8e9005",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "PEMBULATAN",
+        "func": "msg.payload = Math.round(msg.payload); // Membulatkan ke bilangan bulat\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 220,
+        "wires": [
+            [
+                "64808ed008f34edf",
+                "6d78320b0dddb821",
+                "98c68e3f0fd903de"
+            ]
+        ]
+    },
+    {
+        "id": "98c68e3f0fd903de",
+        "type": "ui_template",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "name": "Level Boiler",
+        "order": 18,
+        "width": 5,
+        "height": 9,
+        "format": "<div style=\"display: flex; justify-content: center; align-items: center; width: 200px; height: 440px;\">\n    <svg width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 440\"\n        preserveAspectRatio=\"xMidYMid meet\">\n        <!-- Boiler body -->\n        <rect x=\"60\" y=\"50\" width=\"80\" height=\"300\" fill=\"silver\" stroke=\"black\" stroke-width=\"2\" rx=\"40\" ry=\"40\" />\n\n        <!-- Top pipe -->\n        <rect x=\"90\" y=\"30\" width=\"20\" height=\"20\" fill=\"gray\" stroke=\"black\" stroke-width=\"2\" />\n        <circle cx=\"100\" cy=\"40\" r=\"8\" fill=\"black\" />\n\n        <!-- Bottom pipe -->\n        <rect x=\"90\" y=\"350\" width=\"20\" height=\"20\" fill=\"gray\" stroke=\"black\" stroke-width=\"2\" />\n        <circle cx=\"100\" cy=\"360\" r=\"8\" fill=\"black\" />\n\n        <!-- Level indicator inside -->\n        <clipPath id=\"waterLevel\">\n            <rect x=\"60\" y=\"{{350 - (msg.payload * 3)}}\" width=\"80\" height=\"{{msg.payload * 3}}\" />\n        </clipPath>\n        <rect x=\"60\" y=\"50\" width=\"80\" height=\"300\" fill=\"blue\" clip-path=\"url(#waterLevel)\" rx=\"40\" ry=\"40\" />\n\n        <!-- Horizontal divisions (decoration) -->\n        <line x1=\"60\" y1=\"150\" x2=\"140\" y2=\"150\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4,4\" />\n        <line x1=\"60\" y1=\"250\" x2=\"140\" y2=\"250\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4,4\" />\n\n        <!-- Label text -->\n        <text x=\"100\" y=\"420\" font-size=\"16\" text-anchor=\"middle\" fill=\"black\">\n            Level: {{msg.payload}}%\n        </text>\n    </svg>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 570,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d788ffd19916e99d",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 22,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Anggota Kelompok 3 IKI 5B",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 260,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a041268b81296f8a",
+        "type": "debug",
+        "z": "fc377e2990d1f1a4",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "cc7302d724847ef9",
+        "type": "ui_table",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "name": "",
+        "order": 25,
+        "width": 10,
+        "height": 3,
+        "columns": [
+            {
+                "field": "Nama",
+                "title": "Nama",
+                "width": "35%",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "NIM",
+                "title": "NIM",
+                "width": "35%",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Divisi",
+                "title": "Divisi",
+                "width": "30%",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 590,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "fb5700a68b80af93",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Level Boiler",
+        "format": "",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 830,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "c4e5a22882beafe8",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Temperature Boiler",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 850,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "397cad251b09d536",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 2,
+        "width": 30,
+        "height": 1,
+        "name": "",
+        "label": "Sistem Monitoring Level dan Suhu Boiler dilengkapi Alarm Otomatis",
+        "format": "",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+        "fontSize": "30",
+        "color": "#0432be",
+        "x": 520,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "844d55d889801e31",
+        "type": "ui_led",
+        "z": "fc377e2990d1f1a4",
+        "order": 19,
+        "group": "5d648df72148d612",
+        "width": 2,
+        "height": 1,
+        "label": "HH",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#8f8f8f",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0505",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": true,
+        "name": "",
+        "x": 1190,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "052b66cc3687af4f",
+        "type": "ui_led",
+        "z": "fc377e2990d1f1a4",
+        "order": 26,
+        "group": "5d648df72148d612",
+        "width": 2,
+        "height": 1,
+        "label": "H",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#8f8f8f",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0505",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": true,
+        "name": "",
+        "x": 1190,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4fe578d404ac8a7c",
+        "type": "ui_led",
+        "z": "fc377e2990d1f1a4",
+        "order": 32,
+        "group": "5d648df72148d612",
+        "width": 2,
+        "height": 1,
+        "label": "L",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#8f8f8f",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0505",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": true,
+        "name": "",
+        "x": 1190,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "52ecbc825658ace0",
+        "type": "ui_led",
+        "z": "fc377e2990d1f1a4",
+        "order": 39,
+        "group": "5d648df72148d612",
+        "width": 2,
+        "height": 1,
+        "label": "LL",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#8f8f8f",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ff0505",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": true,
+        "name": "",
+        "x": 1190,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c2377818b0cb2423",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 3",
+        "func": "// Asumsikan msg.payload adalah input dari Node Inject\nif (msg.alarm === \"High High\") {\n    msg.payload = true; // 1 untuk menyalakan LED\n} else {\n    msg.payload = false; // 0 untuk mematikan LED\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 40,
+        "wires": [
+            [
+                "844d55d889801e31"
+            ]
+        ]
+    },
+    {
+        "id": "cb68292af49ad1cd",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 4",
+        "func": "// Asumsikan msg.payload adalah input dari Node Inject\nif (msg.alarm === \"High\") {\n    msg.payload = true; // 1 untuk menyalakan LED\n} else {\n    msg.payload = false; // 0 untuk mematikan LED\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 100,
+        "wires": [
+            [
+                "052b66cc3687af4f"
+            ]
+        ]
+    },
+    {
+        "id": "4d605d6bd74f1347",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 5",
+        "func": "// Asumsikan msg.payload adalah input dari Node Inject\nif (msg.alarm === \"Low\") {\n    msg.payload = true; // 1 untuk menyalakan LED\n} else {\n    msg.payload = false; // 0 untuk mematikan LED\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 160,
+        "wires": [
+            [
+                "4fe578d404ac8a7c"
+            ]
+        ]
+    },
+    {
+        "id": "0a43afe737c7dfce",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 6",
+        "func": "// Asumsikan msg.payload adalah input dari Node Inject\nif (msg.alarm === \"Low Low\") {\n    msg.payload = true; // 1 untuk menyalakan LED\n} else {\n    msg.payload = false; // 0 untuk mematikan LED\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 220,
+        "wires": [
+            [
+                "52ecbc825658ace0"
+            ]
+        ]
+    },
+    {
+        "id": "5f32290c65ad0e3d",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 7",
+        "func": "// Mendapatkan waktu sekarang\nlet now = new Date();\n\n// Format waktu dan tanggal\nlet hours = now.getHours().toString().padStart(2, '0');\nlet minutes = now.getMinutes().toString().padStart(2, '0');\nlet seconds = now.getSeconds().toString().padStart(2, '0');\n\nlet date = now.toLocaleDateString(); // Format tanggal lokal\n\n// Gabungkan waktu dan tanggal\nmsg.payload = {\n    time: `${hours}:${minutes}:${seconds}`,\n    date: date\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 420,
+        "wires": [
+            [
+                "2e883d2d911d43a1",
+                "771e081cce2f7ad7"
+            ]
+        ]
+    },
+    {
+        "id": "45403de21df2dce1",
+        "type": "inject",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "iso",
+        "payloadType": "date",
+        "x": 730,
+        "y": 420,
+        "wires": [
+            [
+                "5f32290c65ad0e3d"
+            ]
+        ]
+    },
+    {
+        "id": "2e883d2d911d43a1",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 35,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Current Time",
+        "format": "{{msg.payload.time}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1070,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "771e081cce2f7ad7",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 38,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Current Date",
+        "format": "{{msg.payload.date}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1070,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "21c51004c1454f60",
+        "type": "ui_template",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "name": "",
+        "order": 7,
+        "width": 8,
+        "height": 4,
+        "format": "<div style=\"display: flex; justify-content: center; align-items: center; height: 100%; text-align: center;\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/id/1/16/Logo_Politeknik_Negeri_Jakarta.jpg\" alt=\"Logo\" style=\"width: 200px; height: auto;\">\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 760,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ab096bc4dee763f9",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Alarm Boiler",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1070,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "61621b03a309f4f5",
+        "type": "ui_form",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "label": "Login",
+        "group": "45b6813b073e0842",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "options": [
+            {
+                "label": "Username",
+                "value": "username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Login",
+        "cancel": "Cancel",
+        "topic": "payload",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 330,
+        "y": 600,
+        "wires": [
+            [
+                "36cb5bfd2734a587",
+                "8542907b6d5ce797",
+                "22f23330b11a132d"
+            ]
+        ]
+    },
+    {
+        "id": "36cb5bfd2734a587",
+        "type": "debug",
+        "z": "fc377e2990d1f1a4",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "8542907b6d5ce797",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 8",
+        "func": "const username = msg.payload.username;\nconst password = msg.payload.password;\n\n// Daftar kredensial yang valid\nconst validCredentials = [\n    { username: \"Eli\", password: \"2203431007\" },\n    { username: \"Fadillah\", password: \"2203431045\" },\n    { username: \"Rabbani\", password: \"2203431024\" },\n    { username: \"Rifan\", password: \"2203431028\" }\n];\n\n// Cek apakah username dan password cocok dengan salah satu pasangan kredensial yang valid\nconst user = validCredentials.find(cred => cred.username === username && cred.password === password);\n\n// Cek apakah user ditemukan\nif (user) {\n    // Login berhasil\n    return { payload: { login: \"true\" } };\n} else {\n    // Login gagal (termasuk jika username atau password kosong atau tidak cocok)\n    return { payload: { login: \"false\" } };\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 640,
+        "wires": [
+            [
+                "31b643947c04b872"
+            ]
+        ]
+    },
+    {
+        "id": "31b643947c04b872",
+        "type": "switch",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "property": "payload.login",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "true",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "false",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 620,
+        "wires": [
+            [
+                "20f035bb1e7f2c8b"
+            ],
+            [
+                "db280dbb18d18f9b"
+            ]
+        ]
+    },
+    {
+        "id": "20f035bb1e7f2c8b",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 9",
+        "func": "if (msg.payload.login = \"true\") {\n    return { payload: {tab: \"Dashboard Overview\"} };\n} else {\n    return\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 580,
+        "wires": [
+            [
+                "c1468e2226b6f5fa"
+            ]
+        ]
+    },
+    {
+        "id": "c1468e2226b6f5fa",
+        "type": "ui_ui_control",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "events": "change",
+        "x": 1200,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "96b33a7a9c0ff018",
+        "type": "inject",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            [
+                "61621b03a309f4f5"
+            ]
+        ]
+    },
+    {
+        "id": "db280dbb18d18f9b",
+        "type": "ui_toast",
+        "z": "fc377e2990d1f1a4",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": false,
+        "outputs": 1,
+        "ok": "Cancel",
+        "cancel": "OK",
+        "raw": true,
+        "className": "",
+        "topic": "Invalid Username or Password",
+        "name": "",
+        "x": 1050,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c50becd1736a7c7b",
+        "type": "ui_button",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "group": "5d648df72148d612",
+        "order": 46,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Log Out",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 320,
+        "y": 720,
+        "wires": [
+            [
+                "82fa29feee87da70"
+            ]
+        ]
+    },
+    {
+        "id": "87dd43d585b638f5",
+        "type": "inject",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 700,
+        "wires": [
+            [
+                "c50becd1736a7c7b"
+            ]
+        ]
+    },
+    {
+        "id": "82fa29feee87da70",
+        "type": "function",
+        "z": "fc377e2990d1f1a4",
+        "name": "function 10",
+        "func": "if (msg.payload = true) {\n    return { payload: {tab: \"Login\"} };\n} else {\n    return\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 720,
+        "wires": [
+            [
+                "3d7b90972fb0e20c"
+            ]
+        ]
+    },
+    {
+        "id": "3d7b90972fb0e20c",
+        "type": "ui_ui_control",
+        "z": "fc377e2990d1f1a4",
+        "name": "",
+        "events": "change",
+        "x": 720,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22f23330b11a132d",
+        "type": "ui_text",
+        "z": "fc377e2990d1f1a4",
+        "group": "5d648df72148d612",
+        "order": 42,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "You Logged In As : ",
+        "format": "{{msg.payload.username}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 730,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "57c8fbd0086301fd",
+        "type": "ui_template",
+        "z": "fc377e2990d1f1a4",
+        "group": "45b6813b073e0842",
+        "name": "",
+        "order": 1,
+        "width": 6,
+        "height": 5,
+        "format": "<div style=\"display: flex; justify-content: center; align-items: center; height: 100%; text-align: center;\">\n    <img src=\"https://upload.wikimedia.org/wikipedia/id/1/16/Logo_Politeknik_Negeri_Jakarta.jpg\" alt=\"Logo\" style=\"width: 200px; height: auto;\">\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 900,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    }
+]
